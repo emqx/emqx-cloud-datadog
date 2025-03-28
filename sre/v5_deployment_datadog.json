@@ -802,7 +802,7 @@
                                         {
                                             "data_source": "metrics",
                                             "name": "query1",
-                                            "query": "sum:emqx.cloud.rule.status{$deployment_id}.rollup(sum, 60)",
+                                            "query": "sum:emqx.cloud.rule.status{$deployment_id}",
                                             "aggregator": "last"
                                         }
                                     ],
@@ -842,13 +842,13 @@
                                         {
                                             "data_source": "metrics",
                                             "name": "query1",
-                                            "query": "count:emqx.cloud.rule.status{$deployment_id}.rollup(count, 60)",
+                                            "query": "count:emqx.cloud.rule.status{$deployment_id}",
                                             "aggregator": "last"
                                         },
                                         {
                                             "data_source": "metrics",
                                             "name": "query2",
-                                            "query": "sum:emqx.cloud.rule.status{$deployment_id}.rollup(sum, 60)",
+                                            "query": "sum:emqx.cloud.rule.status{$deployment_id}",
                                             "aggregator": "last"
                                         }
                                     ],
@@ -1532,7 +1532,7 @@
                                         {
                                             "data_source": "metrics",
                                             "name": "query1",
-                                            "query": "sum:emqx.cloud.resource.status{$deployment_id}.rollup(sum, 60)",
+                                            "query": "sum:emqx.cloud.resource.status{$deployment_id}",
                                             "aggregator": "last"
                                         }
                                     ],
@@ -1572,13 +1572,13 @@
                                         {
                                             "data_source": "metrics",
                                             "name": "query1",
-                                            "query": "avg:emqx.cloud.resource.status{$deployment_id}.rollup(count, 60)",
+                                            "query": "avg:emqx.cloud.resource.status{$deployment_id}",
                                             "aggregator": "last"
                                         },
                                         {
                                             "data_source": "metrics",
                                             "name": "query2",
-                                            "query": "sum:emqx.cloud.resource.status{$deployment_id}.rollup(sum, 60)",
+                                            "query": "sum:emqx.cloud.resource.status{$deployment_id}",
                                             "aggregator": "last"
                                         }
                                     ],
